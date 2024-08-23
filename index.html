@@ -36,31 +36,8 @@
        <nav>
         <div class="navbar bg-base-100">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h8m-8 6h16" />
-                  </svg>
-                </div>
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a>Home</a></li>
-                    <li><a>Service</a></li>
-                    <li><a>Portfolio</a></li>
-                    <li><a>Blogs</a></li>
-                    <li><a>Contact Us</a></li>
-                </ul>
-              </div>
+              
+              
               <p class="bg-button-color text-white py-1 px-2 rounded-full "><i class="fa-solid fa-arrow-right -rotate-45"></i></p>
               <a class=" text-2xl font-bold ml-2">Rinterio</a>
             </div>
@@ -73,7 +50,32 @@
                 <li><a>Contact Us</a></li>
               </ul>
             </div>
-            <div class="navbar-end gap-3">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>Blogs</a></li>
+                  <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end gap-3 ">
                 <button class="bg-slate-100  rounded-full py-1 px-2"><i class="fa-solid fa-magnifying-glass"></i></button>
                 <button class="bg-slate-100  rounded-full py-1 px-2"><i class="fa-solid fa-cart-shopping"></i></button>
               <a class="btn bg-button-color rounded-full">Book Consult
@@ -101,11 +103,11 @@
      <!-- main section start  -->
     <main>
       <!-- About us section  -->
-       <section class="my-14 bg-[#F4F4F4] p-10">
+       <section class="mt-14 mb-4 bg-[#F4F4F4] p-10">
         <p class="pb-3"><img src="assets/Vector.png" alt=""></p>
         <div class="container mx-auto flex flex-col lg:flex-row">
           <div class="lg:w-1/2">
-            <a class="btn bg-white rounded-full"> <i class="fa-solid fa-arrow-right "></i>About Us</a>
+            <a class="btn bg-white rounded-full "> <i class="fa-solid fa-arrow-right "></i>About Us</a>
             <h3 class="text-4xl font-bold py-4 mb-4">We design thoughtful, liveable spaces</h3>
             <p>The barn house captivates with its blend of rustic charm and 
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -136,7 +138,7 @@
          <!-- work section -->
 
          <div class="mt-10 container mx-auto">
-           <div class="flex flex-col md:flex-col items-center justify-center">
+           <div class="flex flex-col lg:flex-col items-center justify-center">
               <a class="btn bg-white rounded-full"> <i class="fa-solid fa-arrow-right "></i>About Us</a>
               <h3 class="text-4xl font-bold py-2 mb-2">Our Works Process</h3>
               <p class="lg:w-8/12 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
@@ -167,8 +169,26 @@
 
        </section>
 
-      
-       
+       <!-- discuss section -->
+        <section class="bg-[url('./assets/bg.jpg')]">
+          <div class="w-9/12 lg:w-8/12 mx-auto">
+            <div class="flex flex-col lg:flex-col items-center justify-center">
+              <a class="btn bg-[#ABEF5F33] rounded-full mt-8"> <i class="fa-solid fa-arrow-right "></i>About Us</a>
+              <h3 class="text-3xl font-bold py-3 ">Let’s Discuss Next Project</h3>
+              <p class="lg:w-8/12 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 py-6">
+              <input class="p-2 pl-4 rounded-full" type="text" placeholder="First Name">
+              <input class="p-2  pl-4 rounded-full" type="text" placeholder="Last Name">
+              <input class="p-2  pl-4 rounded-full" type="text" placeholder="Phone Number">
+              <input class="p-2  pl-4 rounded-full" type="email" placeholder="Email">
+              <textarea class="lg:col-span-2 lg:row-span-12 rounded-2xl p-2 pl-4" name="message" placeholder="Write your message here"></textarea>
+              <a class="btn bg-button-color rounded-full lg:col-span-2 mb-8">Send Mail
+                <p class="bg-black text-[#FFFFFF] p-1 rounded-full  "><i class="fa-solid fa-arrow-right -rotate-45"></i></p>
+              </a>
+            </div>
+          </div>
+        </section>
 
     </main>
       <!-- main section end  -->
