@@ -176,8 +176,8 @@
               <h3 class="text-3xl font-bold py-3 ">Our Latest Portfolio</h3>
               <p class="lg:w-7/12 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
             </div>
-            <div class="grid grid-cols-3 gap-3">
-              <div class=" bg-[#FFFFFF] shadow-xl p-4 flex col-span-2 gap-4 border-2 rounded-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-3">
+              <div class=" bg-[#FFFFFF] shadow-xl p-4 flex flex-col lg:flex-row col-span-2 gap-4 border-2 rounded-lg">
                 <img src="./assets/img1.png" alt="">
                 <div>
                   <h3 class="font-bold">Commercial</h3>
@@ -188,16 +188,16 @@
                 </div>
               </div>
               <div class="bg-[#FFFFFF] shadow-xl border-2 rounded-lg p-4">
-                <img src="./assets/img2.png" alt="">
+                <img class="" src="./assets/img2.png" alt="">
               </div>
 
             </div>
 
-            <div class="grid grid-cols-4 gap-3 my-4">
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-3 my-4">
               <div class="bg-[#FFFFFF] shadow-xl border-2 rounded-lg p-4">
                 <img src="./assets/img3.png" alt="">
               </div>
-              <div class=" bg-[#FFFFFF] shadow-xl border-2 rounded-lg p-4 flex col-span-2 gap-4">
+              <div class=" bg-[#FFFFFF] shadow-xl border-2 rounded-lg p-4 flex flex-col lg:flex-row col-span-2 gap-4">
                 <img src="./assets/img4.png" alt="">
                 <div>
                   <h3 class="font-bold">Commercial</h3>
@@ -214,6 +214,52 @@
             </div>
           </div>
        </section>
+
+       <!-- question section -->
+        <section class="container mx-auto my-20">
+          <div class=" flex flex-col justify-center items-center">
+            <h3 class="lg:w-8/12 text-3xl font-bold text-center pb-4">Key Interior Design Tips: Clear Answers to Common Questions</h3>
+            <p class="text-center pb-5">Here are some common questions and simple answers related to interior project design:</p>
+          </div>
+          <div class="w-9/12 my-6   mx-auto">
+            <div class="collapse collapse-plus bg-base-200 my-4">
+              <input type="radio" name="my-accordion-3" checked="checked" />
+              <div class="collapse-title text-xl font-medium">What is the first step in starting an interior design project?</div>
+              <div class="collapse-content">
+                <p>The first step is understanding the client's needs, preferences, and budget.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">How do you choose a color scheme for a room?</div>
+              <div class="collapse-content">
+                <p>Consider the room's purpose, natural light, and the mood you want to create.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">How can you ensure a cohesive design throughout a home?</div>
+              <div class="collapse-content">
+                <p>Use a consistent color palette, style, and design elements in all rooms.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200 mb-4">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">What are some current trends in interior design?</div>
+              <div class="collapse-content">
+                <p>Trends include sustainable materials, biophilic design, and minimalism.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-plus bg-base-200">
+              <input type="radio" name="my-accordion-3" />
+              <div class="collapse-title text-xl font-medium">How can you ensure a cohesive design throughout a home?</div>
+              <div class="collapse-content">
+                <p>Use a consistent color palette, style, and design elements in all rooms.</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
 
        <!-- discuss section -->
         <section class="bg-[url('./assets/bg.jpg')] mt-14">
