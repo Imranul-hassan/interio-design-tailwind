@@ -34,7 +34,7 @@
     <header class="w-10/12  mx-auto ">
         <!-- navbar design -->
        <nav>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-gradient-to-r from-[#FFFFFF] to-[#FFFFFF]">
             <div class="navbar-start pl-0">
               
               <p class="bg-button-color text-white py-1 px-2 rounded-full "><i class="fa-solid fa-arrow-right -rotate-45"></i></p>
@@ -42,7 +42,7 @@
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-base">
-                <li><a>Home</a></li>
+                <li class="font-bold"><a>Home</a></li>
                 <li><a>Service</a></li>
                 <li><a>Portfolio</a></li>
                 <li><a>Blogs</a></li>
@@ -50,15 +50,16 @@
               </ul>
             </div>
 
-            <div class="navbar-end gap-3 ">
-                <button class="bg-slate-100  rounded-full py-1 px-2"><i class="fa-solid fa-magnifying-glass"></i></button>
-                <button class="bg-slate-100  rounded-full py-1 px-2"><i class="fa-solid fa-cart-shopping"></i></button>
+            <div class="navbar-end">
+              <div class="navbar-end gap-3  hidden lg:flex ">
+                <button class="bg-slate-100  rounded-full py-1 px-3"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="bg-slate-100  rounded-full py-1 px-3"><i class="fa-solid fa-cart-shopping"></i></button>
               <a class="btn bg-button-color rounded-full">Book Consult
                 <p class="bg-black text-blue-500 p-1 rounded-full "><i class="fa-solid fa-arrow-right -rotate-45"></i></p>
               </a>
             </div>
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -81,6 +82,7 @@
                   <li><a>Blogs</a></li>
                   <li><a>Contact Us</a></li>
               </ul>
+              </div>
             </div>
           </div>
        </nav>
